@@ -1,0 +1,26 @@
+{
+  "week": "W1",
+  "title": "Introduction to the Course & Prehistoric Medicine",
+  "questions": [
+    {
+      "question": "被称为'医学之父'（The father of medicine）的是？",
+      "options": [
+        { "text": "Galen（盖伦）", "isCorrect": false, "reason": "罗马时期著名医师，但非'医学之父'" },
+        { "text": "Imhotep（伊姆霍特普）", "isCorrect": false, "reason": "古埃及早期医者，被神化但非西方传统所称'医学之父'" },
+        { "text": "Hippocrates（希波克拉底）", "isCorrect": true, "reason": "PDF明确标注为'The father of medicine'，古希腊医学奠基人" },
+        { "text": "Avicenna（阿维森纳）", "isCorrect": false, "reason": "伊斯兰黄金时代医学家，《医典》作者" }
+      ],
+      "explanation": "易混淆点：Galen 和 Avicenna 在医学史上地位极高，但'医学之父'特指 Hippocrates；Imhotep 是埃及早期医者，易因'古老'而误选。"
+    },
+    {
+      "question": "史前医学中用于颅骨钻孔（trepanning）的早期工具材质是？",
+      "options": [
+        { "text": "青铜", "isCorrect": false, "reason": "青铜时代工具，晚于史前燧石工具" },
+        { "text": "铁", "isCorrect": false, "reason": "铁器时代更晚" },
+        { "text": "燧石（Flint）", "isCorrect": true, "reason": "PDF'medical tools'部分明确展示 Flint 用于 skull-drilling" },
+        { "text": "骨头", "isCorrect": false, "reason": "虽有使用，但 PDF 未强调，燧石为最古老材质" }
+      ],
+      "explanation": "易混淆点：易误选'骨头'因联想原始，但 PDF 明确图示为 Flint。"
+    }
+  ]
+}
