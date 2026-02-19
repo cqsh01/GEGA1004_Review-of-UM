@@ -1,0 +1,156 @@
+{
+  "week": "W1",
+  "title": "Prehistoric Medicine",
+  "questions": [
+    {
+      "question": "The earliest evidence of self-medication in prehistoric humans comes from fossilized dental calculus of Neanderthals found in which location?",
+      "options": [
+        { "text": "Mehrgarh, Pakistan", "isCorrect": false, "reason": "Mehrgarh is known for early dentistry (9,000 years ago), not Neanderthal self-medication evidence" },
+        { "text": "Liang Tebo cave, Borneo", "isCorrect": false, "reason": "This site contains evidence of surgical amputation (31,000 years ago), not dental calculus analysis" },
+        { "text": "El Sidrón cave, north Spain", "isCorrect": true, "reason": "Gas-chromatography mass spectrometry analysis of Neanderthal dental calculus from El Sidrón cave (50,000 years ago) revealed microfossils of medicinal plants like yarrow and chamomile" },
+        { "text": "Ötztal Alps, Europe", "isCorrect": false, "reason": "Ötztal Alps is where Ötzi the Iceman was found (5,300 years ago), not Neanderthal dental evidence" }
+      ],
+      "explanation": "Key distinction: El Sidrón cave provided the earliest direct chemical evidence of medicinal plant consumption through dental calculus analysis. Mehrgarh relates to dentistry/drilling, Liang Tebo to amputation, and Ötztal to the Iceman mummy."
+    },
+    {
+      "question": "Which two plants were identified in Neanderthal dental calculus from El Sidrón cave as likely used for medicinal purposes?",
+      "options": [
+        { "text": "Willow bark and catnip", "isCorrect": false, "reason": "Willow bark (source of salicin/aspirin) and catnip were used by later prehistoric humans, but not identified in Neanderthal calculus from El Sidrón" },
+        { "text": "Yarrow (Achillea millefolium) and chamomile (Anthemis arvensis)", "isCorrect": true, "reason": "These plants were specifically identified in Neanderthal dental calculus; yarrow has tonic/astringent properties, chamomile has relaxant/anti-inflammatory properties" },
+        { "text": "Aspilia leaves and Piptoporus betulinus fungus", "isCorrect": false, "reason": "Aspilia leaves are used by chimpanzees/gorillas for parasite expulsion; Piptoporus betulinus was found with Ötzi the Iceman" },
+        { "text": "Clay and soil", "isCorrect": false, "reason": "Clay/soil were consumed through geophagy for mineral supplementation and toxin neutralization, but not identified as plant microfossils in dental calculus" }
+      ],
+      "explanation": "Critical detail: Yarrow and chamomile were chemically identified in 50,000-year-old Neanderthal dental calculus. Willow bark (pain relief) and catnip (stomach problems) were used later but not in this specific Neanderthal population."
+    },
+    {
+      "question": "Trepanning (cranial drilling) has been practiced since approximately when?",
+      "options": [
+        { "text": "50,000 BCE", "isCorrect": false, "reason": "This date corresponds to Neanderthal medicinal plant use, not trepanning" },
+        { "text": "31,000 BCE", "isCorrect": false, "reason": "This date corresponds to the earliest surgical amputation evidence in Borneo" },
+        { "text": "10,000 BCE", "isCorrect": true, "reason": "PDF explicitly states: 'Trepanning has been performed since 10,000 BCE, which is still a necessary part of modern neurosurgery'" },
+        { "text": "9,000 BCE", "isCorrect": false, "reason": "This date corresponds to Mehrgarh civilization and early dentistry in the Indus Valley" }
+      ],
+      "explanation": "Common confusion: Trepanning (10,000 BCE) is distinct from other prehistoric medical practices. Surgical amputation evidence dates to 31,000 BCE (Borneo) and 7,000 BCE (France); dentistry to 9,000 BCE (Mehrgarh). Trepanning remains part of modern neurosurgery for intracranial pressure relief."
+    },
+    {
+      "question": "What was the primary material used for prehistoric trepanning tools?",
+      "options": [
+        { "text": "Bronze", "isCorrect": false, "reason": "Bronze tools appeared later in the Bronze Age; prehistoric trepanning predates metal tools" },
+        { "text": "Iron", "isCorrect": false, "reason": "Iron tools appeared even later; prehistoric trepanning used stone tools" },
+        { "text": "Flint", "isCorrect": true, "reason": "PDF states 'Flints (earliest tools)' were used for skull drilling; flint's sharp edges made it ideal for cutting bone" },
+        { "text": "Bone", "isCorrect": false, "reason": "Bone was used for splints and other tools, but flint was the primary material for trepanning due to its sharpness" }
+      ],
+      "explanation": "Key point: Flint was the earliest and most effective material for trepanning due to its ability to maintain a sharp edge. Later periods developed bow rotary drills (17th century illustration in PDF), but the earliest trepanning (10,000 BCE) relied on flint tools."
+    },
+    {
+      "question": "The archaeological site of Mehrgarh provides evidence of prehistoric dentistry from approximately how many years ago?",
+      "options": [
+        { "text": "50,000 years", "isCorrect": false, "reason": "This corresponds to Neanderthal medicinal plant use in El Sidrón cave" },
+        { "text": "31,000 years", "isCorrect": false, "reason": "This corresponds to surgical amputation evidence in Borneo" },
+        { "text": "9,000 years", "isCorrect": true, "reason": "PDF states: 'Ancient Indus Valley Civilization (9,000 years ago)' at Mehrgarh showed evidence of dental drilling on approximately 3% of the population to relieve abscess pain" },
+        { "text": "5,300 years", "isCorrect": false, "reason": "This is the age of Ötzi the Iceman, not Mehrgarh dentistry" }
+      ],
+      "explanation": "Distinction: Mehrgarh (9,000 years ago, Indus Valley) shows the earliest evidence of intentional dental drilling. This predates written records by millennia and demonstrates sophisticated understanding of dental pain management."
+    },
+    {
+      "question": "The earliest known evidence of surgical limb amputation comes from skeletal remains found in which location?",
+      "options": [
+        { "text": "El Sidrón cave, Spain", "isCorrect": false, "reason": "El Sidrón contains Neanderthal remains with evidence of medicinal plant consumption, not amputation" },
+        { "text": "Neolithic site near Paris, France", "isCorrect": false, "reason": "This site (7,000 years ago) shows evidence of forearm amputation, but is not the earliest known case" },
+        { "text": "Liang Tebo cave, Borneo", "isCorrect": true, "reason": "PDF cites Nature 2022 study: 'Palaeolithic Liang Tebo cave, Indonesian Borneo' contains skeletal remains of a young individual (31,000 years ago) with deliberate lower left limb removal—the earliest known surgical amputation" },
+        { "text": "Mehrgarh, Pakistan", "isCorrect": false, "reason": "Mehrgarh shows evidence of dentistry, not limb amputation" }
+      ],
+      "explanation": "Important update: While the Neolithic French site (7,000 years ago) was long considered the earliest amputation evidence, the 2022 Nature study of Liang Tebo cave pushed this back to 31,000 years ago—demonstrating remarkably advanced surgical knowledge in Paleolithic Southeast Asia."
+    },
+    {
+      "question": "Ötzi the Iceman, discovered in the Ötztal Alps, carried which substance with antibiotic properties likely used to treat intestinal parasites?",
+      "options": [
+        { "text": "Willow bark", "isCorrect": false, "reason": "Willow bark contains salicin (precursor to aspirin) for pain relief, but was not found with Ötzi" },
+        { "text": "Catnip (Nepeta cataria)", "isCorrect": false, "reason": "Catnip was used for stomach problems in prehistoric times but was not found with Ötzi" },
+        { "text": "Piptoporus betulinus fungus", "isCorrect": true, "reason": "PDF states Ötzi carried 'lumps of fungus (Piptoporus betulinus), which has laxative as well as antibiotic properties, so as to be poisonous to intestinal parasites'; medical examination confirmed whipworm parasite eggs in his intestine" },
+        { "text": "Clay", "isCorrect": false, "reason": "Clay was consumed through geophagy for various medicinal purposes, but Ötzi specifically carried fungus" }
+      ],
+      "explanation": "Diagnostic evidence: Ötzi's possession of Piptoporus betulinus fungus directly correlates with parasitological findings (whipworm eggs in his intestine), suggesting intentional self-medication. His 50+ tattoos at acupuncture points on painful areas further indicate sophisticated pain management practices."
+    },
+    {
+      "question": "Prehistoric humans practiced geophagy primarily for which of the following reasons?",
+      "options": [
+        { "text": "Religious ritual only", "isCorrect": false, "reason": "While geophagy had ritual aspects, PDF lists multiple practical medicinal benefits" },
+        { "text": "To neutralize harmful substances, provide minerals, and relieve digestive issues", "isCorrect": true, "reason": "PDF states geophagy provided: 'antidiarrheals, alleviation of gastrointestinal upsets, supplementation of mineral nutrients, relief of excess acidity in the digestive tract, antimicrobials, and adsorbents to toxins'" },
+        { "text": "To treat broken bones exclusively", "isCorrect": false, "reason": "Broken bones were treated with splints, poultices, and plaster casts—not primarily through soil consumption" },
+        { "text": "To enhance spiritual powers only", "isCorrect": false, "reason": "While spiritual beliefs were important in prehistoric medicine, geophagy had documented physiological benefits beyond spirituality" }
+      ],
+      "explanation": "Nuanced understanding: Geophagy served both practical and cultural purposes. PDF explicitly lists multiple physiological benefits (mineral supplementation, toxin adsorption, digestive relief) while acknowledging risks (constipation, intestinal obstruction, heavy metal poisoning). This demonstrates prehistoric humans' empirical understanding of soil's medicinal properties."
+    },
+    {
+      "question": "Which prehistoric medical practice was believed to release evil spirits and alleviate conditions such as migraine, epilepsy, and depression?",
+      "options": [
+        { "text": "Geophagy (soil-eating)", "isCorrect": false, "reason": "Geophagy was used for digestive issues and mineral supplementation, not primarily for neurological/psychiatric conditions" },
+        { "text": "Dental drilling", "isCorrect": false, "reason": "Dental drilling at Mehrgarh was for relieving abscess pain, not neurological conditions" },
+        { "text": "Trepanning (cranial drilling)", "isCorrect": true, "reason": "PDF states trepanning was performed 'for releasing evil spirits, alleviating the pressure in the brain' to treat 'Migraine, Epilepsy, Depression, Bipolar disorder, Intracranial pressure'" },
+        { "text": "Herbal poultices", "isCorrect": false, "reason": "Poultices were applied externally for wounds/inflammation, not specifically for releasing evil spirits from the brain" }
+      ],
+      "explanation": "Dual purpose: Trepanning served both spiritual (releasing evil spirits) and physiological (relieving intracranial pressure) purposes. Remarkably, this ancient practice has a modern counterpart—contemporary neurosurgeons still perform craniotomies to relieve intracranial pressure, though without the spiritual rationale."
+    },
+    {
+      "question": "Willow bark was used in prehistoric medicine primarily because it contains which compound that relieves pain and reduces swelling?",
+      "options": [
+        { "text": "Morphine", "isCorrect": false, "reason": "Morphine comes from opium poppy, not willow bark" },
+        { "text": "Quinine", "isCorrect": false, "reason": "Quinine comes from cinchona bark and was used for malaria, not willow bark" },
+        { "text": "Salicin", "isCorrect": true, "reason": "PDF explicitly states: 'Willow bark—source of salicin, or aspirin (acetylsalicylic acid) relieve pain and reduce swelling'" },
+        { "text": "Digitalis", "isCorrect": false, "reason": "Digitalis comes from foxglove and was used for heart conditions, not willow bark" }
+      ],
+      "explanation": "Historical continuity: Salicin from willow bark is the natural precursor to acetylsalicylic acid (aspirin), one of the most widely used modern medications. This demonstrates remarkable continuity between prehistoric empirical knowledge and modern pharmacology."
+    },
+    {
+      "question": "Shamans in prehistoric societies typically served as all of the following EXCEPT:",
+      "options": [
+        { "text": "Priests and spiritual intermediaries", "isCorrect": false, "reason": "PDF states shamans 'served as a priest, a soothsayer, an advisor, or even a ruler' and 'communicate with the gods and spirits'" },
+        { "text": "Herbal medicine preparers", "isCorrect": false, "reason": "PDF states shamans 'prepare herbal medicine and administer hands-on treatments such as massage'" },
+        { "text": "Professional surgeons using anesthesia", "isCorrect": true, "reason": "While Hua Tuo (140–208 CE, Eastern Han dynasty China) was the first to use anesthesia in surgery, this occurred millennia after prehistoric shamanism; prehistoric surgery (amputation, trepanning) lacked documented anesthesia" },
+        { "text": "Users of amulets and masks for healing rituals", "isCorrect": false, "reason": "PDF states shamans 'use a variety of objects such as amulets and masks to engage their powers'" }
+      ],
+      "explanation": "Chronological distinction: Shamanism represents prehistoric spiritual healing practices. Hua Tuo's use of anesthesia occurred in historical China (2nd–3rd century CE), long after the prehistoric period. Prehistoric surgical procedures (amputation, trepanning) show remarkable skill but no evidence of systematic anesthesia."
+    },
+    {
+      "question": "Ötzi the Iceman's tattoos are significant because they:",
+      "options": [
+        { "text": "Represent tribal identity markers only", "isCorrect": false, "reason": "While tattoos may have had cultural significance, their placement has specific medical relevance" },
+        { "text": "Correspond to known acupuncture points on areas of degenerative joint disease", "isCorrect": true, "reason": "PDF states: 'more than 50 skin tattoos on these painful areas, which correspond to known acupuncture points, probably meant as symbolic therapy for pain relief'; X-rays/CT scans revealed osteoarthritis and joint conditions" },
+        { "text": "Were purely decorative with no therapeutic purpose", "isCorrect": false, "reason": "The correlation between tattoo locations and both painful areas and acupuncture points strongly suggests therapeutic intent" },
+        { "text": "Indicate status as a shaman only", "isCorrect": false, "reason": "While Ötzi may have had special status, the tattoos' specific placement on painful areas suggests pain management rather than solely status marking" }
+      ],
+      "explanation": "Interdisciplinary evidence: The correlation between Ötzi's tattoos, his documented osteoarthritis/degenerative conditions, and modern acupuncture points suggests sophisticated empirical knowledge of pain points—predating formal Chinese acupuncture texts by millennia. This challenges assumptions about the origins of acupuncture-like practices."
+    },
+    {
+      "question": "Which non-human primates are mentioned in the PDF as practicing self-medication with Aspilia leaves to expel parasites?",
+      "options": [
+        { "text": "Orangutans and gibbons", "isCorrect": false, "reason": "These primates are not mentioned in the PDF regarding self-medication" },
+        { "text": "Chimpanzees and gorillas", "isCorrect": true, "reason": "PDF states: 'Non-human primates that self-medicate: chimpanzees & gorillas' using 'Aspilia leaves (Herbs) expelling parasites'" },
+        { "text": "Baboons and macaques", "isCorrect": false, "reason": "These primates are not mentioned in the PDF regarding self-medication" },
+        { "text": "Lemurs and lorises", "isCorrect": false, "reason": "These primates are not mentioned in the PDF regarding self-medication" }
+      ],
+      "explanation": "Evolutionary perspective: The PDF uses chimpanzee/gorilla self-medication as evidence that medicinal plant use has deep evolutionary roots—predating Homo sapiens. This supports the 'ancient wisdom' concept: medical knowledge accumulated over thousands of years across species and cultures."
+    },
+    {
+      "question": "Prehistoric treatment of fractured bones typically included all of the following EXCEPT:",
+      "options": [
+        { "text": "Plaster casts made of clay or mud", "isCorrect": false, "reason": "PDF explicitly lists 'plaster cast (clay or mud)' as a prehistoric fracture treatment" },
+        { "text": "Splints made of wood, bone, or horn", "isCorrect": false, "reason": "PDF explicitly lists 'splints (made of wood, bone, or horn)' as a prehistoric fracture treatment" },
+        { "text": "Poultices made from healing herbs", "isCorrect": false, "reason": "PDF explicitly lists 'poultices (healing herb)' as a prehistoric fracture treatment" },
+        { "text": "Steel surgical plates and screws", "isCorrect": true, "reason": "Steel implants are modern orthopedic technology; prehistoric humans used natural materials (clay, wood, bone, horn, animal skin) for fracture management" }
+      ],
+      "explanation": "Material constraints: Prehistoric fracture treatment relied entirely on locally available natural materials. Evidence of healed fractures in ancient bones demonstrates the effectiveness of these techniques despite the absence of metal implants or modern surgical tools."
+    },
+    {
+      "question": "According to the PDF, prehistoric people attributed disease causation primarily to:",
+      "options": [
+        { "text": "Bacterial and viral infections", "isCorrect": false, "reason": "Germ theory wasn't established until the 19th century; prehistoric people lacked microbiological knowledge" },
+        { "text": "Genetic mutations and inherited conditions", "isCorrect": false, "reason": "Genetic understanding is modern; prehistoric people lacked this conceptual framework" },
+        { "text": "Spiritual dysfunction or revenge for sinful behavior", "isCorrect": true, "reason": "PDF states: 'Prehistoric people had a mix of religious and spiritual beliefs about the causes of disease: spiritual dysfunction or revenge for sinful behavior'" },
+        { "text": "Poor nutrition and sanitation alone", "isCorrect": false, "reason": "While practical treatments existed (herbs, poultices), the PDF emphasizes spiritual/religious explanations as primary causative beliefs" }
+      ],
+      "explanation": "Dual approach: Prehistoric medicine combined spiritual causation beliefs (evil spirits, divine punishment) with practical treatments (herbs, surgery). This 'mixed model' persisted for millennia—spiritual explanations for 'why' disease occurred, empirical treatments for 'how' to alleviate symptoms."
+    }
+  ]
+}

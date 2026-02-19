@@ -1,7 +1,8 @@
 # backend/question_generator.py
-from http import HTTPStatus
 import dashscope
-from dashscope import MultiModalConversation
+from dashscope import MultiModalConversation  # 显式导入多模态类
+from dashscope import Generation  # 显式导入 Generation 类
+from http import HTTPStatus
 import os
 import re
 import json
@@ -97,60 +98,54 @@ D. [选项D文本] | [选项D的详细解析]
         except Exception as e:
             raise Exception(f"多模态模型调用失败: {str(e)}")
     
-    def _generate_with_text_model(self, file_path, num_questions, chapter_info):
-        """使用纯文本模型（仅文本内容）"""
-        
-        print(f"📝 正在使用文本模型分析文件...")
-        
-        # 读取文本内容
-        content = self._extract_text_from_file(file_path)
-        
-        # 限制长度
-        if len(content) > 8000:
-            content = content[:8000] + "\n...(内容过长，已截断)"
-        
-        prompt = f"""你是一个医学史课程的专业题目生成专家。请根据以下内容生成 {num_questions} 道高质量的选择题。
+    # question_generator.py
+    # 示例：其他函数不变
+    def _generate_with_vision_model(self, file_path, num_questions, chapter_info):
+        """使用多模态模型（分析文件）"""
+        print(f"📤 正在使用多模态模型分析文件: {file_path}")
+        # Prompt 内容
+        prompt = f"""请基于上传的文件生成 {num_questions} 道医学史选择题。
 
-章节信息：{chapter_info if chapter_info else "医学史相关内容"}
+        你在这里将协助整理pdf中相应的知识点，并出成选择题
+        我会发给你多个pdf，你需要针对每个pdf都出选择题
+        类似于名人干了什么，什么研究成果，有什么影响，有哪些疾病，
+        医学工具之类的，因为都是考的选择题，
+        所以我需要范围广，而不是研究的深
+        （没有论述题，考试答案可以直接从我发你的pdf上获取）
 
-学习内容：
-{content}
-
-输出格式（严格遵循）：
-题目：[题目文本]
-A. [选项A] | [选项A的详细解析]
-B. [选项B] | [选项B的详细解析]
-C. [选项C] | [选项C的详细解析，如果是正确答案在末尾加 ✓]
-D. [选项D] | [选项D的详细解析]
-解析：[易混淆点说明]
-
----
-
-要求：
-1. 题目要有深度，考察理解而非记忆
-2. 每个选项都要有详细解析
-3. 正确答案解析末尾标注 ✓
-4. 解析指出易混淆点
-5. 题目之间用 --- 分隔
-6. 不要添加题目编号
-
-现在生成题目："""
+        **严格输出格式如下**：
+        题目：[题目文本]
+        A. [选项A] | [解析]
+        B. [选项B] | [解析]
+        C. [选项C] | [解析且结尾加 ✓]
+        D. [选项D] | [解析]
+        解析：[解析内容]
+        --- """
+        messages = [
+            {
+                "role": "user",
+                "content": [
+                    {"file": f"file://{os.path.abspath(file_path)}"},
+                    {"text": prompt}
+                ]
+            }
+        ]
         
         try:
-            response = dashscope.Generation.call(
-                model=self.text_model,
-                prompt=prompt,
-                max_tokens=4000,
-                temperature=0.7
+            response = MultiModalConversation.call(
+                model=self.vision_model,
+                messages=messages
             )
             
             if response.status_code == HTTPStatus.OK:
-                return response.output.text
+                return response.output.choices[0].message['content']['text']
             else:
                 raise Exception(f"API 调用失败: {response.code} - {response.message}")
         
         except Exception as e:
-            raise Exception(f"文本模型调用失败: {str(e)}")
+            raise Exception(f"多模态模型调用失败: {str(e)}")
+    
+    
     
     def _extract_text_from_file(self, file_path):
         """从文件提取纯文本"""

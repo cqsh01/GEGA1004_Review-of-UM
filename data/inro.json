@@ -1,0 +1,156 @@
+{
+  "week": "W1",
+  "title": "Introduction to the Course & Prehistoric Medicine",
+  "questions": [
+    {
+      "question": "被称为'医学之父'（The father of medicine）的是？",
+      "options": [
+        { "text": "Galen（盖伦）", "isCorrect": false, "reason": "罗马时期著名医师，继承并发展体液学说，但非'医学之父'" },
+        { "text": "Imhotep（伊姆霍特普）", "isCorrect": false, "reason": "古埃及早期医者与建筑师，被后世神化，但非西方传统所称'医学之父'" },
+        { "text": "Hippocrates（希波克拉底）", "isCorrect": true, "reason": "PDF明确标注为'The father of medicine'，古希腊医学奠基人，约公元前460–370年" },
+        { "text": "Avicenna（阿维森纳）", "isCorrect": false, "reason": "伊斯兰黄金时代医学家，《医典》作者，活跃于10–11世纪" }
+      ],
+      "explanation": "易混淆点：Galen 和 Avicenna 在医学史上地位极高，但'医学之父'特指 Hippocrates；Imhotep 是埃及早期医者，易因'古老'而误选。PDF中明确将 Hippocrates 标注为 'The father of medicine'。"
+    },
+    {
+      "question": "Alexander Fleming 的主要贡献是？",
+      "options": [
+        { "text": "发现血液循环", "isCorrect": false, "reason": "William Harvey 于1628年通过严谨观察（rigorous observations）发现" },
+        { "text": "提出细菌理论", "isCorrect": false, "reason": "Louis Pasteur 提出细菌致病理论（Germ Theory）" },
+        { "text": "发现青霉素（第一种抗生素）", "isCorrect": true, "reason": "1928年 Fleming 偶然发现霉菌（mould）抑制葡萄球菌生长，属serendipity（偶然发现）" },
+        { "text": "发明'飞行'救护车", "isCorrect": false, "reason": "Baron Dominique Jean Larrey 发明'flying ambulances'，被誉为首位现代军事外科医生" }
+      ],
+      "explanation": "易混淆点：Fleming 与 Pasteur 均与微生物相关，但 Pasteur 提出理论，Fleming 发现具体药物；'serendipity（偶然发现）'是关键词，区别于系统性研究。"
+    },
+    {
+      "question": "William Harvey 的著名发现是？",
+      "options": [
+        { "text": "细菌致病理论", "isCorrect": false, "reason": "Louis Pasteur 于19世纪提出细菌理论" },
+        { "text": "血液循环", "isCorrect": true, "reason": "PDF注明1628年通过严谨观察（rigorous observations）发现血液循环" },
+        { "text": "颅骨钻孔术标准化", "isCorrect": false, "reason": "史前及古罗马时期已有颅骨钻孔实践，用于治疗颅骨损伤" },
+        { "text": "青霉素", "isCorrect": false, "reason": "Alexander Fleming 于1928年发现" }
+      ],
+      "explanation": "易混淆点：Harvey 与 Vesalius 均属解剖学革命人物，但 Vesalius 重在人体结构描绘（1543年《人体构造》），Harvey 重在循环功能（1628年《心血运动论》）。"
+    },
+    {
+      "question": "'细菌理论'（Germ Theory）的主要提出者是？",
+      "options": [
+        { "text": "Alexander Fleming", "isCorrect": false, "reason": "发现青霉素，但未提出细菌理论" },
+        { "text": "Louis Pasteur", "isCorrect": true, "reason": "PDF在'Scientific journey'中标注其提出细菌致病理论；注：PDF中拼写为'Louise Pasteur'属笔误" },
+        { "text": "Hippocrates", "isCorrect": false, "reason": "提出体液学说（血液、黏液、黄胆汁、黑胆汁），非细菌理论" },
+        { "text": "Galen", "isCorrect": false, "reason": "继承并发展 Hippocrates 的体液学说，活跃于2世纪罗马" }
+      ],
+      "explanation": "易混淆点：PDF中拼写为'Louise Pasteur'（笔误），正确应为 Louis Pasteur；细菌理论确立于19世纪，而显微镜虽在17世纪发明，但理论体系直到 Pasteur/Koch 时代才完善。"
+    },
+    {
+      "question": "史前医学中用于颅骨钻孔（trepanning）的早期工具材质是？",
+      "options": [
+        { "text": "青铜", "isCorrect": false, "reason": "青铜时代工具，晚于史前燧石工具" },
+        { "text": "铁", "isCorrect": false, "reason": "铁器时代更晚，约公元前1200年才普及" },
+        { "text": "燧石（Flint）", "isCorrect": true, "reason": "PDF'medical tools'部分明确展示 Flint 用于 skull-drilling（颅骨钻孔）" },
+        { "text": "骨头", "isCorrect": false, "reason": "虽有考古证据显示骨头被用作工具，但 PDF 未强调，燧石为最古老且明确记载的材质" }
+      ],
+      "explanation": "易混淆点：易误选'骨头'因联想原始，但 PDF 明确图示为 Flint；颅骨钻孔是史前神经外科的雏形，用于治疗颅骨损伤或释放'邪灵'。"
+    },
+    {
+      "question": "最古老的已知外科创伤治疗文献是？",
+      "options": [
+        { "text": "《黄帝内经》", "isCorrect": false, "reason": "中医经典，成书于战国至汉代，非外科创伤专著" },
+        { "text": "Smith Papyrus", "isCorrect": true, "reason": "PDF注明'oldest known surgical treatise on trauma'，3600年前埃及文献，记载颅骨损伤分类与trepanning技术" },
+        { "text": "Charaka Samhita", "isCorrect": false, "reason": "印度阿育吠陀医学典籍，侧重内科与药物学" },
+        { "text": "Canon of Medicine", "isCorrect": false, "reason": "Avicenna 著作，中世纪伊斯兰医学集大成，成书于11世纪" }
+      ],
+      "explanation": "易混淆点：Smith Papyrus 与 Ebers Papyrus 均为埃及医学纸草，但 Smith 专攻外科创伤（特别是颅骨损伤），Ebers 偏重内科疾病与咒语治疗。"
+    },
+    {
+      "question": "第一次世界大战中哪种化学武器意外促成化疗发展？",
+      "options": [
+        { "text": "氯气", "isCorrect": false, "reason": "早期毒气，主要致窒息，未直接关联癌症治疗" },
+        { "text": "光气", "isCorrect": false, "reason": "肺损伤为主，未发现抗癌特性" },
+        { "text": "芥子气（Mustard gas）", "isCorrect": true, "reason": "PDF指出其'turned out to have beneficial effects when fighting cancer'，因抑制细胞分裂特性被开发为化疗药物（如氮芥）" },
+        { "text": "路易氏剂", "isCorrect": false, "reason": "砷化物毒剂，主要用于致残，未直接关联癌症治疗" }
+      ],
+      "explanation": "易混淆点：多种毒气均用于一战，但仅芥子气因烷基化作用抑制快速分裂细胞（包括癌细胞）的特性，被后续开发为首个化疗药物氮芥（1940年代）。"
+    },
+    {
+      "question": "细菌作为感染传播者的概念最早出现于？",
+      "options": [
+        { "text": "古希腊时期", "isCorrect": false, "reason": "体液学说主导，认为疾病源于体液失衡" },
+        { "text": "文艺复兴时期", "isCorrect": false, "reason": "解剖学兴起，但未建立微生物致病观" },
+        { "text": "18世纪", "isCorrect": false, "reason": "显微镜已发明，但细菌致病理论未成形" },
+        { "text": "19世纪", "isCorrect": true, "reason": "PDF原文：'The notion of germs as transmitters of infection has existed only since the 19th century'" }
+      ],
+      "explanation": "易混淆点：易误认为显微镜发明（17世纪列文虎克）即有细菌理论，实际理论确立在19世纪（Pasteur 1861年、Koch 1876年）；此前疾病多归因于瘴气（miasma）或体液失衡。"
+    },
+    {
+      "question": "Ambroise Paré 被称为？",
+      "options": [
+        { "text": "医学之父", "isCorrect": false, "reason": "Hippocrates" },
+        { "text": "现代外科之父（Father of Modern Surgery）", "isCorrect": true, "reason": "PDF标注Ambroise Paré (1509–1590) 为'Father of Modern Surgery'，改进截肢与血管结扎技术" },
+        { "text": "细菌理论之父", "isCorrect": false, "reason": "Louis Pasteur" },
+        { "text": "血液循环发现者", "isCorrect": false, "reason": "William Harvey" }
+      ],
+      "explanation": "易混淆点：注意区分各'之父'称号，Paré 因在外科手术（特别是截肢时用结扎代替烙铁止血）上的革命性贡献被称为现代外科之父，活跃于16世纪法国。"
+    },
+    {
+      "question": "Baron Dominique Jean Larrey 的主要贡献是？",
+      "options": [
+        { "text": "发现青霉素", "isCorrect": false, "reason": "Alexander Fleming" },
+        { "text": "发明'飞行'救护车（flying ambulances）", "isCorrect": true, "reason": "PDF称其为'first modern military surgeon'，设计快速移动的救护车系统用于战场急救" },
+        { "text": "提出细菌理论", "isCorrect": false, "reason": "Louis Pasteur" },
+        { "text": "颅骨钻孔术标准化", "isCorrect": false, "reason": "古罗马医师基于Smith Papyrus发展此技术" }
+      ],
+      "explanation": "易混淆点：Larrey 与 Ambroise Paré 均为军事外科先驱，但 Paré 专注截肢与结扎（16世纪），Larrey 专注战场急救运输系统（拿破仑战争时期，18–19世纪）。"
+    },
+    {
+      "question": "古代医学实践中，早期医者常被称为？",
+      "options": [
+        { "text": "科学家", "isCorrect": false, "reason": "现代称谓，古代无此概念" },
+        { "text": "巫师/医者（Sorcerers/Medicine men）", "isCorrect": true, "reason": "PDF'A glance at the history...'部分指出古代医者即sorcerers，为spiritual intermediaries（精神中介者）" },
+        { "text": "教授", "isCorrect": false, "reason": "现代学术称谓" },
+        { "text": "工程师", "isCorrect": false, "reason": "与医学无关的职业" }
+      ],
+      "explanation": "易混淆点：现代人容易用当代视角理解古代职业，但古代医者兼具宗教、巫术和医疗三重角色，被视为人与神灵/自然力量之间的中介者。"
+    },
+    {
+      "question": "16世纪医学的特点是？",
+      "options": [
+        { "text": "完全基于细菌理论", "isCorrect": false, "reason": "细菌理论19世纪才确立" },
+        { "text": "仅限于解剖学研究", "isCorrect": false, "reason": "解剖学是重要部分，但非唯一" },
+        { "text": "解剖学、草药学、炼金术、占星术等的混合形态", "isCorrect": true, "reason": "PDF指出16世纪医学是'an eclectic mix'，包含anatomy, surgery, herbalism, mineralogy, alchemy, astrology, psychotherapy, faith-healing等" },
+        { "text": "完全科学化", "isCorrect": false, "reason": "科学医学兴起于文艺复兴后期至17世纪" }
+      ],
+      "explanation": "易混淆点：16世纪处于中世纪与现代医学的过渡期，既有Vesalius的解剖学革命，也保留大量神秘主义实践（炼金术、占星术），并非纯粹科学。"
+    },
+    {
+      "question": "本课程期中考试的题型与题量是？",
+      "options": [
+        { "text": "30道简答题", "isCorrect": false, "reason": "无简答题型" },
+        { "text": "40道选择题（40 MCQs）", "isCorrect": true, "reason": "PDF Assessment methods 明确标注'Mid-term 40 MCQs'" },
+        { "text": "50道判断题", "isCorrect": false, "reason": "无判断题型" },
+        { "text": "20道论述题", "isCorrect": false, "reason": "无论述题，课程明确仅考选择题" }
+      ],
+      "explanation": "易混淆点：易混淆期中与期末题量，但PDF显示两者均为40 MCQs；另注意缺勤扣分规则：每次缺勤扣1.5分（总分100分制）。"
+    },
+    {
+      "question": "截至2023年11月22日，WHO报告的全球COVID-19累计死亡人数约为？",
+      "options": [
+        { "text": "300万", "isCorrect": false, "reason": "严重低估，实际数据远高于此" },
+        { "text": "500万", "isCorrect": false, "reason": "仍低于实际" },
+        { "text": "698万（6,981,263）", "isCorrect": true, "reason": "PDF明确数据：'6,981,263 deaths'（截至2023年11月22日）" },
+        { "text": "1000万", "isCorrect": false, "reason": "高估，部分媒体估算包含未报告病例，但WHO官方数据为698万" }
+      ],
+      "explanation": "易混淆点：媒体常报道'超1000万'，但PDF采用WHO官方截至2023年11月22日数据（6,981,263），需以课程材料为准；另注意同期疫苗接种剂数：13,535,714,288剂（截至11月18日）。"
+    },
+    {
+      "question": "以下哪项不属于PDF列举的'现代医学基本改进'（Basic Improvements）？",
+      "options": [
+        { "text": "更好的营养", "isCorrect": false, "reason": "PDF明确列出'Better nutrition'" },
+        { "text": "改善公共卫生和卫生条件", "isCorrect": false, "reason": "PDF列出'Improved public health and hygiene, safety awareness, and health education'" },
+        { "text": "量子计算机辅助诊断", "isCorrect": true, "reason": "未来技术，PDF未提及；PDF强调的是20世纪已实现的基础性改进" },
+        { "text": "识别致癌物和污染物", "isCorrect": false, "reason": "PDF列出'Recognition of health hazards such as carcinogens, pollutants...'" }
+      ],
+      "explanation": "易混淆点：C选项为现代高科技，看似合理，但PDF强调的是20世纪已实现的基础性改进（营养、公共卫生、疫苗、抗生素等），非前沿技术；量子计算尚未应用于常规临床诊断。"
+      }
+  ]
+}

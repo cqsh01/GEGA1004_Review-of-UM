@@ -1,0 +1,156 @@
+{
+  "week": "W2",
+  "title": "Medicine in Ancient Egypt and Mesopotamia",
+  "questions": [
+    {
+      "question": "Imhotep (2,650–2,600 BCE) is historically significant as:",
+      "options": [
+        { "text": "The first physician to perform cataract surgery using 'couching' technique", "isCorrect": false, "reason": "Cataract 'couching' was practiced in Mesopotamia, not by Imhotep" },
+        { "text": "The earliest known physician who was later deified as the god of medicine and son of Ptah", "isCorrect": true, "reason": "PDF states Imhotep 'was regarded after his death, as the god of medicine and the son of the creator-god Ptah'; he served Pharaoh Djoser and was 'the earliest known physician'" },
+        { "text": "The author of the Ebers Papyrus detailing 877 prescriptions for various ailments", "isCorrect": false, "reason": "Ebers Papyrus authorship is unknown; Imhotep possibly wrote the Smith Papyrus according to PDF" },
+        { "text": "The first female physician who specialized in gynecology and obstetrics", "isCorrect": false, "reason": "Merit-Ptah (2,700 BCE) was the first female physician; Imhotep was male" }
+      ],
+      "explanation": "Key distinction: Imhotep's unique status combines historical medical practice with posthumous deification—unusual for physicians in antiquity. While possibly authoring the Smith Papyrus, his primary significance lies in being Egypt's earliest documented physician later worshipped as a healing deity."
+    },
+    {
+      "question": "Hesy-Ra (27th century BCE) is recognized in medical history for being:",
+      "options": [
+        { "text": "The creator of the Blocked Channel Theory linking 46 bodily channels to the Nile River", "isCorrect": false, "reason": "Blocked Channel Theory was developed by Egyptian priest-physicians generally, not specifically attributed to Hesy-Ra" },
+        { "text": "The first dentist who treated tooth decay and documented early symptoms of diabetes", "isCorrect": true, "reason": "PDF explicitly states Hesy-Ra was 'the first dentist to treat tooth decay and the first physician who noted diabetes symptoms' including polyuria, polydipsia, and polyphagia" },
+        { "text": "The overseer of the Temple of Neith medical school at Sais", "isCorrect": false, "reason": "Temple of Neith (3,000 BCE) was an Egyptian medical school, but Pesehet (not Hesy-Ra) was 'lady overseer of female physicians'" },
+        { "text": "The physician who developed prosthetic limbs using wood and leather", "isCorrect": false, "reason": "Prosthetic big toe (wood/leather) existed in ancient Egypt but is not attributed to Hesy-Ra specifically" }
+      ],
+      "explanation": "Critical detail: Hesy-Ra's dual contribution—dentistry and diabetes documentation—makes him uniquely important. His recognition of polyuria (excessive urination), polydipsia (excessive thirst), and polyphagia (excessive hunger) represents the earliest known clinical description of diabetes mellitus symptoms."
+    },
+    {
+      "question": "The Blocked Channel Theory in ancient Egyptian medicine proposed that:",
+      "options": [
+        { "text": "Diseases were caused exclusively by evil spirits requiring exorcism", "isCorrect": false, "reason": "While spiritual beliefs existed, Blocked Channel Theory represented a physiological explanation focusing on bodily processes" },
+        { "text": "The body contained up to 46 channels emanating from the heart, and illness resulted from blockages requiring laxatives or emetics", "isCorrect": true, "reason": "PDF states: 'Egyptian priest-physicians conceived a system of up to 46 channels (tubes) in the body, mostly emanating from the heart' with remedies including 'laxatives and emetics' to clear blockages" },
+        { "text": "Blood circulated through vessels discovered by William Harvey in 1628", "isCorrect": false, "reason": "Blood circulation was discovered by William Harvey in 1628 CE, millennia after ancient Egypt" },
+        { "text": "The brain was the center of all bodily functions and consciousness", "isCorrect": false, "reason": "Egyptians considered the heart (not brain) the center of bodily functions; brain was often discarded during mummification" }
+      ],
+      "explanation": "Conceptual significance: Blocked Channel Theory represented a crucial transition from purely spiritual disease explanations toward physiological models. Though incorrect anatomically (channels included arteries, veins, intestines, possibly tendons/nerves), it established the principle that illness could originate within the body's physical systems rather than solely from supernatural causes."
+    },
+    {
+      "question": "The Edwin Smith Papyrus (17th century BCE) is historically significant because it:",
+      "options": [
+        { "text": "Contains 877 magical spells for curing diseases through divine intervention", "isCorrect": false, "reason": "This describes the Ebers Papyrus which includes spiritual elements; Smith Papyrus is notably practical/surgical" },
+        { "text": "Is the world's oldest surviving surgical text describing 48 trauma case histories with rational treatments", "isCorrect": true, "reason": "PDF states it is 'the world's oldest surviving surgical text' dealing with 'wounds, injuries, general trauma management, and surgery' with '48 case histories' including sutures, raw meat for bleeding, and honey for infection prevention" },
+        { "text": "Focuses exclusively on gynecological issues including fertility testing using barley seeds", "isCorrect": false, "reason": "Pregnancy testing with barley seeds appears in general Egyptian practice; gynecological focus belongs to Kahun Papyrus" },
+        { "text": "Documents the use of anesthesia during surgery by Chinese physician Hua Tuo", "isCorrect": false, "reason": "Hua Tuo (140–208 CE) used anesthesia in China, not Egypt; Smith Papyrus predates him by ~1,800 years" }
+      ],
+      "explanation": "Historical importance: Unlike contemporaneous medical texts heavy with magical incantations, the Smith Papyrus demonstrates remarkably rational, observational medicine. Its descriptions of cranial sutures, meninges, and cerebrospinal fluid represent the earliest known anatomical observations of these structures—predating Greek medicine by over a millennium."
+    },
+    {
+      "question": "Which ancient Egyptian medical text is specifically focused on the female reproductive system, fertility, conception, and contraception?",
+      "options": [
+        { "text": "Edwin Smith Papyrus", "isCorrect": false, "reason": "Smith Papyrus focuses on surgical trauma and wounds, not gynecology" },
+        { "text": "Ebers Papyrus", "isCorrect": false, "reason": "Ebers Papyrus covers diverse conditions (parasites, bowel diseases, skin problems, ulcers, heart conditions) but is not specifically gynecological" },
+        { "text": "Kahun Gynecological Papyrus", "isCorrect": true, "reason": "PDF explicitly states Kahun Papyrus (3,800 years ago) was 'concerned mostly with the female reproductive system' discussing 'fertility, conception, pregnancy testing, and contraception'" },
+        { "text": "Hammurabi Code", "isCorrect": false, "reason": "Hammurabi Code is Mesopotamian legal text regulating medical practice liability, not an Egyptian medical treatise" }
+      ],
+      "explanation": "Specialization significance: The Kahun Papyrus (c. 1800 BCE) represents one of history's earliest examples of medical specialization. Its focus on women's health—including practical pregnancy testing methods (urine on barley/emmer seeds)—demonstrates sophisticated understanding of reproductive physiology long before Hippocratic gynecology."
+    },
+    {
+      "question": "Ancient Egyptian surgeons routinely performed all of the following procedures EXCEPT:",
+      "options": [
+        { "text": "Stitching wounds and fixing broken bones/dislocated joints", "isCorrect": false, "reason": "PDF explicitly lists these as routine Egyptian surgical practices" },
+        { "text": "Amputating limbs using willow-leaf bandages for antiseptic properties", "isCorrect": false, "reason": "PDF states Egyptians 'amputated limbs, using willow-leaf bandages for their antiseptic properties'" },
+        { "text": "Performing delicate tracheotomies", "isCorrect": false, "reason": "PDF explicitly mentions tracheotomy as a 'delicate procedure' performed by Egyptian surgeons" },
+        { "text": "Conducting open-heart surgery to repair cardiac valves", "isCorrect": true, "reason": "Open-heart surgery requires modern technology (heart-lung machines, antibiotics); ancient Egyptians lacked both anatomical knowledge and technical capability for intrathoracic procedures beyond abscess drainage" }
+      ],
+      "explanation": "Technical limitation: While Egyptian surgery was remarkably advanced for its time (prosthetics, wound management, tumor removal), it remained external/superficial. The heart was considered sacred (seat of soul/intelligence) and was not operated upon; internal organ surgery beyond abscess drainage was beyond their technical and conceptual capabilities."
+    },
+    {
+      "question": "Analysis of ancient Egyptian mummies has revealed all of the following health conditions EXCEPT:",
+      "options": [
+        { "text": "Parasitic infections including tapeworms, roundworms, and elephantiasis-causing worms", "isCorrect": false, "reason": "PDF explicitly lists these parasites as detected in mummies" },
+        { "text": "Dental decay, sinus infections, malaria, and tuberculosis", "isCorrect": false, "reason": "PDF explicitly lists these infectious diseases as prevalent in ancient Egypt" },
+        { "text": "Widespread atherosclerosis (arterial plaque buildup)", "isCorrect": false, "reason": "PDF states 'dozens of mummies show atherosclerosis' despite assumptions that this is a modern disease" },
+        { "text": "Widespread smallpox vaccination scars from inoculation programs", "isCorrect": true, "reason": "Smallpox vaccination was developed by Edward Jenner in 1796 CE; ancient Egyptians had no vaccination technology. Smallpox itself may have existed, but not vaccination." }
+      ],
+      "explanation": "Historical misconception: Atherosclerosis findings in mummies challenge the assumption that cardiovascular disease is purely 'modern.' However, vaccination is definitively modern—Edward Jenner's smallpox vaccine (1796) predates germ theory itself. Ancient Egyptians practiced variolation (risky inoculation with actual smallpox) only much later in history, not during pharaonic times."
+    },
+    {
+      "question": "The average age of death in ancient Egypt was approximately 40 years, primarily due to:",
+      "options": [
+        { "text": "Violent warfare and battlefield injuries", "isCorrect": false, "reason": "While warfare existed, PDF identifies specific disease causes as primary mortality factors" },
+        { "text": "Infectious and parasitic diseases, plus atherosclerosis leading to heart failure", "isCorrect": true, "reason": "PDF explicitly states: 'The average age of death in ancient Egypt was 40: major causes included infectious and parasitic diseases, and atherosclerosis leading to heart failure'" },
+        { "text": "Malnutrition and famine from Nile River flooding failures", "isCorrect": false, "reason": "While Nile floods affected agriculture, PDF does not list malnutrition as a primary cause of death" },
+        { "text": "Execution under Hammurabi's Code for medical malpractice", "isCorrect": false, "reason": "Hammurabi's Code was Mesopotamian (Babylonian), not Egyptian; Egyptian law did not mandate hand amputation for physician errors" }
+      ],
+      "explanation": "Epidemiological insight: The combination of infectious diseases (malaria, tuberculosis), parasitic burden (worms), and surprisingly prevalent atherosclerosis created a 'triple threat' limiting lifespan. This challenges romanticized views of ancient health—despite sophisticated medicine, Egyptians faced high disease burdens similar to pre-modern societies globally."
+    },
+    {
+      "question": "In ancient Mesopotamia, the primary difference between ashipus and asus was that:",
+      "options": [
+        { "text": "Ashipus were exclusively female healers while asus were exclusively male", "isCorrect": false, "reason": "PDF does not specify gender differentiation between these roles" },
+        { "text": "Ashipus focused on spiritual healing through chants/spells while asus provided practical treatments like herbal potions and bandaging", "isCorrect": true, "reason": "PDF states: 'The ashipus decreed that an illness is caused by spirits and could be cured by means of chants, spells, and curses. The asus were more involved in practical treatments, such as preparing herbal potions, washing, massage, and bandaging'" },
+        { "text": "Ashipus performed surgery while asus only prescribed medications", "isCorrect": false, "reason": "Surgery was limited in Mesopotamia (cataract 'couching', abscess drainage); neither role is exclusively defined by surgical practice" },
+        { "text": "Ashipus were physicians to royalty while asus treated commoners", "isCorrect": false, "reason": "PDF does not indicate social stratification between these healer types" }
+      ],
+      "explanation": "Dual medical system: Mesopotamia maintained parallel healing traditions—spiritual (ashipu) and empirical (asu)—without forcing integration. This 'complementary dualism' persisted for millennia in many cultures. Unlike Egypt where priest-physicians blended spiritual/physical approaches, Mesopotamians institutionalized separate specialist roles."
+    },
+    {
+      "question": "The earliest surviving medical texts from Mesopotamia were recorded on:",
+      "options": [
+        { "text": "Papyrus scrolls similar to Egyptian medical documents", "isCorrect": false, "reason": "Papyrus was Egyptian material; Mesopotamians used clay tablets" },
+        { "text": "Clay tablets using cuneiform script dating to approximately 2,400 BCE", "isCorrect": true, "reason": "PDF states: 'The first medical texts from Mesopotamia survive in the form of clay tablet that date back to 2,400 BCE' written in cuneiform script" },
+        { "text": "Parchment manuscripts preserved in temple libraries", "isCorrect": false, "reason": "Parchment came later; earliest Mesopotamian texts were clay tablets" },
+        { "text": "Stone pillars like the Hammurabi Code but containing medical prescriptions", "isCorrect": false, "reason": "While Hammurabi Code was on stone, routine medical texts were on more practical clay tablets" }
+      ],
+      "explanation": "Material culture significance: Clay tablets' durability explains why Mesopotamian medical knowledge survives in greater textual detail than many contemporary civilizations. The Library of Ashurbanipal at Nineveh (Assyrian capital) preserved diagnostic texts and prescriptions that reveal sophisticated pharmacopeia—250 plants, 120 minerals, 200 other substances."
+    },
+    {
+      "question": "According to the Law Code of Hammurabi (c. 1750 BCE), a physician who caused a noble patient's death during surgery would:",
+      "options": [
+        { "text": "Pay a fine of ten shekels to the patient's family", "isCorrect": false, "reason": "Ten shekels was the reward for successfully saving a noble's life, not penalty for failure" },
+        { "text": "Be exiled from the city-state for ten years", "isCorrect": false, "reason": "PDF specifies physical punishment, not exile" },
+        { "text": "Have their hand cut off as punishment", "isCorrect": true, "reason": "PDF states: 'If a doctor caused a patient's death, the doctor's hand would be cut off' reflecting extreme liability standards" },
+        { "text": "Be required to treat ten additional patients for free", "isCorrect": false, "reason": "No such compensatory service is mentioned in Hammurabi Code" }
+      ],
+      "explanation": "Legal severity context: Hammurabi Code established strict outcome-based liability ('an eye for an eye'). Physicians faced asymmetric risk—success brought modest reward (10 shekels for noble, 2 for slave), but failure meant mutilation. This likely discouraged surgical innovation despite Mesopotamians' pharmacological sophistication. Note: Actual enforcement frequency is debated by historians."
+    },
+    {
+      "question": "Ancient Egyptian pregnancy testing methods involved:",
+      "options": [
+        { "text": "Examining urine color under sunlight for golden hue indicating pregnancy", "isCorrect": false, "reason": "While urine examination existed in various ancient cultures, PDF specifies a different Egyptian method" },
+        { "text": "Having women urinate on barley and emmer wheat seeds to observe germination patterns", "isCorrect": true, "reason": "PDF states: 'The Egyptian papyrus offers a method for diagnosing pregnancy; it advises women to pee onto seeds of barley and a bag of emmer' (3,500 years ago)" },
+        { "text": "Palpating the abdomen for fetal movement after three months", "isCorrect": false, "reason": "While palpation was likely practiced, the documented specific test involved seeds" },
+        { "text": "Analyzing pulse patterns at the wrist to detect 'slippery' quality of pregnant pulse", "isCorrect": false, "reason": "Pulse diagnosis is characteristic of Traditional Chinese Medicine, not ancient Egyptian practice" }
+      ],
+      "explanation": "Scientific validation: Remarkably, modern studies (e.g., 1963 BMJ) found this method had ~70% accuracy—barley/emmer germination was inhibited by urine from pregnant women due to elevated estrogen levels. This represents one of history's earliest evidence-based diagnostic tests, blending empirical observation with practical application millennia before hormone assays."
+    },
+    {
+      "question": "Which statement about ancient Egyptian prosthetics is CORRECT?",
+      "options": [
+        { "text": "Egyptians created functional prosthetic limbs with articulated joints controlled by leather straps", "isCorrect": false, "reason": "While prosthetics existed, they lacked sophisticated articulation; the wooden toe was primarily cosmetic/supportive" },
+        { "text": "A 3,500-year-old prosthetic big toe made of wood, leather, plaster, glue, and linen is among the earliest known artificial body parts", "isCorrect": true, "reason": "PDF explicitly describes 'one of the earliest prosthetic body parts in human history – a 3,500-year-old toe made of wood, leather, plaster, glue, and linen'" },
+        { "text": "Prosthetic eyes made of gold were routinely implanted following enucleation surgery", "isCorrect": false, "reason": "No evidence of routine ocular prosthetics or enucleation surgery in ancient Egypt" },
+        { "text": "Egyptians developed iron prosthetic limbs after mastering metallurgy in 1500 BCE", "isCorrect": false, "reason": "Egyptian prosthetics used organic materials (wood, leather); iron prosthetics came much later in history" }
+      ],
+      "explanation": "Archaeological significance: The wooden prosthetic toe (Cairo Museum) demonstrates sophisticated craftsmanship—contoured to fit the foot, with leather straps for attachment. Wear patterns suggest it was functional (used in life, not just burial). This challenges assumptions that ancient prosthetics were purely cosmetic; Egyptians understood biomechanical support needs millennia before modern orthotics."
+    },
+    {
+      "question": "Mesopotamian physicians demonstrated awareness of disease transmission by:",
+      "options": [
+        { "text": "Developing the germ theory of disease centuries before Louis Pasteur", "isCorrect": false, "reason": "Germ theory wasn't established until 19th century; Mesopotamians lacked microbiological knowledge" },
+        { "text": "Practicing a form of quarantine to prevent the spread of fevers", "isCorrect": true, "reason": "PDF states: 'They were aware that some diseases spread by contagion, and they practiced a form of quarantine to prevent the spread of fevers'" },
+        { "text": "Boiling all drinking water to kill invisible pathogens", "isCorrect": false, "reason": "While boiling water may have occurred for taste/safety, PDF doesn't attribute pathogen-awareness boiling to Mesopotamians" },
+        { "text": "Requiring physicians to wash hands with lye soap between patients", "isCorrect": false, "reason": "Hand hygiene protocols emerged much later (Semmelweis, 1847); Mesopotamians used washing as general cleanliness, not specifically for contagion prevention" }
+      ],
+      "explanation": "Empirical observation vs. theory: Mesopotamians correctly observed contagion patterns without understanding microbial mechanisms—demonstrating sophisticated epidemiological intuition. Their quarantine practices represent one of history's earliest public health interventions based on transmission awareness, predating European plague quarantines by ~3,000 years."
+    },
+    {
+      "question": "Which medicinal substance was NOT documented in ancient Mesopotamian medical practice?",
+      "options": [
+        { "text": "Mandragora and henbane for pain relief or sedation", "isCorrect": false, "reason": "PDF lists these among herbal ingredients used by Mesopotamian physicians" },
+        { "text": "Fish oil and cedar extract for treating epilepsy", "isCorrect": false, "reason": "PDF explicitly states these were 'thought to treat epilepsy'" },
+        { "text": "Sesame oil, honey, and alcohol applied to wounds to prevent infection", "isCorrect": false, "reason": "PDF states physicians were 'skilled in the treatment of wounds, applying bandaged poultices of sesame oil or honey and alcohol to prevent infection'" },
+        { "text": "Penicillin mold extract for treating bacterial infections", "isCorrect": true, "reason": "Penicillin was discovered by Alexander Fleming in 1928 CE; ancient Mesopotamians had no knowledge of antibiotics despite using honey (which has natural antibacterial properties)" }
+      ],
+      "explanation": "Chronological boundary: While Mesopotamians possessed remarkably diverse pharmacopeia (470+ substances), antibiotics represent a definitive modern innovation. Honey's antibacterial properties likely provided some infection control, but this differs fundamentally from targeted antimicrobial agents like penicillin which require microbiological understanding and purification techniques unavailable until the 20th century."
+    }
+  ]
+}

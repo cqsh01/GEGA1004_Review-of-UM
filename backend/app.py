@@ -1,4 +1,14 @@
 # backend/app.py
+import dashscope
+from dashscope import Generation  # 明确导入需要的类
+from http import HTTPStatus
+
+from question_generator import DashScopeQuestionGenerator
+from chapters_manager import ChaptersManager
+import os
+import config
+from pathlib import Path
+
 from flask import Flask, request, jsonify, send_file, send_from_directory
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
@@ -8,6 +18,7 @@ from pathlib import Path
 from question_generator import DashScopeQuestionGenerator
 from chapters_manager import ChaptersManager
 import config
+
 
 app = Flask(__name__)
 CORS(app)
@@ -199,16 +210,21 @@ def add_chapter_to_config():
             "error": str(e)
         }), 500
 
-@app.route('/api/chapters/list', methods=['GET'])
-def list_chapters():
-    """获取所有章节列表"""
+@app.route('/api/models', methods=['GET'])
+def list_models():
+    """获取所有 DashScope 模型"""
     try:
-        chapters = chapters_manager.load_chapters()
-        return jsonify({
-            "success": True,
-            "chapters": chapters,
-            "total": len(chapters)
-        })
+        response = Model.list()
+        
+        if response.status_code == HTTPStatus.OK:
+            models = [model.model_id for model in response.data]
+            return jsonify({
+                "success": True,
+                "data": models
+            }), 200
+        else:
+            raise Exception(f"API 调用失败: {response.code} - {response.message}")
+    
     except Exception as e:
         return jsonify({
             "success": False,
