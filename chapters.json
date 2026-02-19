@@ -6,7 +6,7 @@
       "week": "W1",
       "instructor": "BAEG Gyeong Hun",
       "date": "06-Jan-2025 to 09-Jan-2025",
-      "fileName": "intro.json",
+      "fileName": "data/intro.json",
       "questionCount": 15,
       "description": "课程介绍与史前医学"
     },
@@ -16,7 +16,7 @@
       "week": "W1",
       "instructor": "BAEG Gyeong Hun",
       "date": "09-Jan-2025",
-      "fileName": "prehistoric.json",
+      "fileName": "data/prehistoric.json",
       "questionCount": 15,
       "description": "Neanderthal self-medication (El Sidrón cave), earliest herbal medicine (yarrow/chamomile), trepanning since 10,000 BCE, Mehrgarh dentistry (9,000 years ago), surgical amputation evidence (Borneo 31,000 BCE, France 7,000 BCE), shamanism, Ötzi the Iceman (fungus antibiotics, acupuncture-like tattoos), geophagy, willow bark (salicin/aspirin precursor)"
     },
@@ -26,7 +26,7 @@
       "week": "W2",
       "instructor": "BAEG Gyeong Hun",
       "date": "13-Jan-2025",
-      "fileName": "egypt_mesopotamia.json",
+      "fileName": "data/egypt_mesopotamia.json",
       "questionCount": 15,
       "description": "Imhotep (earliest physician/deified healer), Hesy-Ra (first dentist/diabetes documentation), Blocked Channel Theory (46 channels from heart), medical papyri (Smith/Ebers/Kahun), Egyptian surgery/prosthetics/mummies, Mesopotamian ashipu/ashu dual system, cuneiform medical tablets, Hammurabi Code medical liability"
     } 
