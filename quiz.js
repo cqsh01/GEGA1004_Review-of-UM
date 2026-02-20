@@ -159,6 +159,180 @@ async function loadChapterQuestions(fileName) {
 }
 
 // ============================================
+// 6. 显示题目
+// ============================================
+function showQuestion(index) {
+    if (index < 0 || index >= currentQuestions.length) {
+        console.error('题目索引超出范围:', index);
+        return;
+    }
+
+    const question = currentQuestions[index];
+    
+    // 更新题号显示
+    document.getElementById('currentQuestion').textContent = index + 1;
+    document.getElementById('totalQuestions').textContent = currentQuestions.length;
+    
+    // 更新进度条
+    const progress = ((index + 1) / currentQuestions.length) * 100;
+    document.getElementById('progressFill').style.width = progress + '%';
+    
+    // 显示题目文本
+    document.getElementById('questionText').textContent = question.question;
+    
+    // 渲染选项
+    const optionsContainer = document.getElementById('optionsContainer');
+    optionsContainer.innerHTML = '';
+    
+    question.options.forEach((option, optionIndex) => {
+        const optionDiv = document.createElement('div');
+        optionDiv.className = 'option';
+        optionDiv.onclick = () => selectOption(index, optionIndex);
+        
+        // 如果已经选择过，高亮显示
+        if (userAnswers[index] === optionIndex) {
+            optionDiv.classList.add('selected');
+        }
+        
+        optionDiv.innerHTML = `
+            <div class="option-label">${String.fromCharCode(65 + optionIndex)}</div>
+            <div class="option-text">${option.text}</div>
+        `;
+        
+        optionsContainer.appendChild(optionDiv);
+    });
+    
+    // 更新按钮状态
+    document.getElementById('prevBtn').disabled = (index === 0);
+    document.getElementById('nextBtn').style.display = (index === currentQuestions.length - 1) ? 'none' : 'inline-block';
+    document.getElementById('submitBtn').style.display = (index === currentQuestions.length - 1) ? 'inline-block' : 'none';
+}
+
+// ============================================
+// 7. 选择答案
+// ============================================
+function selectOption(questionIndex, optionIndex) {
+    userAnswers[questionIndex] = optionIndex;
+    
+    // 更新选项的视觉状态
+    const options = document.querySelectorAll('.option');
+    options.forEach((opt, idx) => {
+        if (idx === optionIndex) {
+            opt.classList.add('selected');
+        } else {
+            opt.classList.remove('selected');
+        }
+    });
+}
+
+// ============================================
+// 8. 上一题
+// ============================================
+document.getElementById('prevBtn').addEventListener('click', function() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        showQuestion(currentQuestionIndex);
+    }
+});
+
+// ============================================
+// 9. 下一题
+// ============================================
+document.getElementById('nextBtn').addEventListener('click', function() {
+    if (currentQuestionIndex < currentQuestions.length - 1) {
+        currentQuestionIndex++;
+        showQuestion(currentQuestionIndex);
+    }
+});
+
+// ============================================
+// 10. 提交测验
+// ============================================
+document.getElementById('submitBtn').addEventListener('click', function() {
+    // 检查是否有未作答的题目
+    const unanswered = userAnswers.filter(answer => answer === null).length;
+    
+    if (unanswered > 0) {
+        const confirmSubmit = confirm(`还有 ${unanswered} 题未作答，确定要提交吗？`);
+        if (!confirmSubmit) return;
+    }
+    
+    submitQuiz();
+});
+
+function submitQuiz() {
+    // 停止计时器
+    if (timerInterval) clearInterval(timerInterval);
+    
+    // 计算得分
+    let correctCount = 0;
+    currentQuestions.forEach((question, index) => {
+        const userAnswer = userAnswers[index];
+        if (userAnswer !== null && question.options[userAnswer].isCorrect) {
+            correctCount++;
+        }
+    });
+    
+    // 显示结果
+    showResults(correctCount);
+}
+
+// ============================================
+// 11. 显示结果
+// ============================================
+function showResults(correctCount) {
+    const totalQuestions = currentQuestions.length;
+    const incorrectCount = totalQuestions - correctCount;
+    const percentage = Math.round((correctCount / totalQuestions) * 100);
+    
+    // 隐藏测验界面，显示结果界面
+    document.getElementById('quizContainer').classList.add('hidden');
+    document.getElementById('resultsContainer').classList.remove('hidden');
+    
+    // 更新统计数据
+    document.getElementById('scoreDisplay').textContent = `${correctCount}/${totalQuestions}`;
+    document.getElementById('scorePercentage').textContent = `${percentage}%`;
+    document.getElementById('correctCount').textContent = correctCount;
+    document.getElementById('incorrectCount').textContent = incorrectCount;
+    document.getElementById('totalCount').textContent = totalQuestions;
+    
+    // 渲染详细结果
+    const resultsContainer = document.getElementById('questionsResults');
+    resultsContainer.innerHTML = '';
+    
+    currentQuestions.forEach((question, index) => {
+        const userAnswer = userAnswers[index];
+        const correctAnswerIndex = question.options.findIndex(opt => opt.isCorrect);
+        const isCorrect = userAnswer === correctAnswerIndex;
+        
+        const resultCard = document.createElement('div');
+        resultCard.className = 'result-card';
+        
+        resultCard.innerHTML = `
+            <div class="result-card-header ${isCorrect ? 'correct' : 'incorrect'}">
+                <span class="result-number">第 ${index + 1} 题</span>
+                <span class="result-status">${isCorrect ? '✓ 正确' : '✗ 错误'}</span>
+            </div>
+            <div class="result-question">${question.question}</div>
+            ${userAnswer !== null ? `
+                <div class="result-answer ${isCorrect ? 'correct' : 'incorrect'}">
+                    你的答案：${question.options[userAnswer].text}
+                </div>
+            ` : '<div class="result-answer unanswered">未作答</div>'}
+            ${!isCorrect ? `
+                <div class="result-answer correct">
+                    正确答案：${question.options[correctAnswerIndex].text}
+                </div>
+            ` : ''}
+            <div class="result-explanation">
+                <strong>解析：</strong>${question.options[correctAnswerIndex].reason || question.explanation || ''}
+            </div>
+        `;
+        
+        resultsContainer.appendChild(resultCard);
+    });
+}
+// ============================================
 // 工具函数
 // ============================================
 
